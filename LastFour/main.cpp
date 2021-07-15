@@ -125,6 +125,12 @@ vector<string> fix_expersion_error(vector<string> xml_data) {
 	}
 	return xml_data;
 }
+vector<string> FixAll(vector<string> xml_data){
+	xml_data = fix_expersion_error(xml_data);
+	xml_data = fix_outline(xml_data);
+	xml_data = fix_inline(xml_data);
+	return xml_data;
+}
 void detect_syn_error(vector<string> xml_data) {
 	stack <string>  tag_stack;
 	stack <int> line_index;
