@@ -49,7 +49,8 @@ By using the same parse tree but instead of using xml characters and notation, J
  ![file after JSON formatting](https://github.com/KareimGazer/XML-Parser/blob/main/screenshots/json.PNG?raw=true)
 
 ### Minifying XML file
-
+extra spaces were removed by removing "\n" while reading the file and using regex to remove more than one space.
+ ![file after JSON formatting](https://github.com/KareimGazer/XML-Parser/blob/main/screenshots/mini.PNG?raw=true)
 
 ### Data Compression
  Huffman codes is a greedy algorithms which relys on "make the common case smaller" principle. In short, it compresses the data by preserving shorter bit streams for the more frequent letter and words. This means that the file to be constructed need to be studied for characters frequency. We used a simple script to count the number of occurences of each character in the file and store the result in a map then we sort them by value. This is done for every file before being processed instead of relying on generalization of characters frequency which degrades the alorithm performance of the alorithms in practical cases.
