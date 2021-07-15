@@ -35,6 +35,10 @@ Due to the similarity with HTML we will adopt the DOM - Document Object Model - 
 To format the text a depth variable is used which is guided by the depth of the tree. As you traverse the tree the depth variable increases or decreases providig a good metric for identation.
 extra spaces and symbols are added and printed as needed.
 
+ ![file before formatting](https://github.com/KareimGazer/XML-Parser/blob/main/screenshots/rawData.PNG?raw=true)
+ 
+  ![file after formatting](https://github.com/KareimGazer/XML-Parser/blob/main/screenshots/formatted.PNG?raw=true)
+
 ### Converting XML to JSON
 
 ### Minifying XML file
