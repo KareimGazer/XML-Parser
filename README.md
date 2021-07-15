@@ -41,6 +41,7 @@ extra spaces and symbols are added and printed as needed.
 
 
 ### Data Compression
+ Huffman codes is a greedy algorithms which relys on "make the common case smaller" principle. In short, it compresses the data by preserving shorter bit streams for the more frequent letter and words. This means that the file to be constructed need to be studied for characters frequency. We used a simple script to count the number of occurences of each character in the file and store the result in a map then we sort them by value. This is done for every file before being processed instead of relying on generalization of characters frequency which degrades the alorithm performance of the alorithms in practical cases.
 
 ### Testing
 For testing, in addition to the sample files provided in the report extra files with diffrent format from the web were collected.
