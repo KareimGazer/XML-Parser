@@ -1,5 +1,5 @@
 # XML-Parser
-Best xml editor ever from scratch
+Best xml editor from scratch
 
 ## Abstract
  XML format was the first used to transfer data via the internet during its early day. Though, it's still cruical to master these concepts which explains how the web really works. Now, its predesessor JSON used extensively and enabled the new efficient RESTful APIs which expanded web services in the way we know today.
