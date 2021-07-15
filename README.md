@@ -49,7 +49,7 @@ extra spaces and symbols are added and printed as needed.
  
  The Algorithm generated half the size on average.
  
- ![files size](https://github.com/KareimGazer/XML-Parse/blob/main/screenshots/compression.PNG?raw=true)
+ ![files size](https://github.com/KareimGazer/XML-Parser/blob/main/screenshots/compression.PNG?raw=true)
  
 
 ### Testing
