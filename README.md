@@ -37,7 +37,11 @@ extra spaces and symbols are added and printed as needed.
 
  ![file before formatting](https://github.com/KareimGazer/XML-Parser/blob/main/screenshots/rawData.PNG?raw=true)
  
+ file before formatting.
+ 
   ![file after formatting](https://github.com/KareimGazer/XML-Parser/blob/main/screenshots/formatted.PNG?raw=true)
+  
+  file after formatting.
 
 ### Converting XML to JSON
 
