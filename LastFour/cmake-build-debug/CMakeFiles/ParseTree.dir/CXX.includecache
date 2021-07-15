@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/KarimTariqAbdel-Azim/Desktop/optimal/ParseTree2/main.cpp
+iostream
+-
+vector
+-
+string
+-
+fstream
+-
+sstream
+-
+iterator
+-
+algorithm
+-
+map
+-
+bitset
+-
+regex
+-
+

@@ -1,0 +1,24 @@
+<GoodreadsResponse>
+    <Request>
+        <authentication>true</authentication>
+        <key></key>
+        <method></method>
+    </Request>
+    <search>
+        <query></query>
+        <results-start>1</results-start>
+        <results-end>20</results-end>
+        <total-results>626</total-results>
+        <source>Goodreads</source>
+        <query-time-seconds>0.31</query-time-seconds>
+        <?xml-model href="data.rnc" type="application/relax-ng-compact-syntax"?>
+        <original_publication_month type="integer" nil="true"/>
+    </search>
+    <work>
+        <id type="integer">2422333</id>
+        <books_count type="integer">229</books_count>
+        <ratings_count type="integer  marks  0013134">963448</ratings_count>
+        <text_reviews_count type="integer">40255</text_reviews_count>
+        <original_publication_year type="integer">1985</original_publication_year>
+    </work>
+</GoodreadsResponse>

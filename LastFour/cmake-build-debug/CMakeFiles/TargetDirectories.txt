@@ -1,0 +1,3 @@
+C:/Users/KarimTariqAbdel-Azim/Desktop/optimal/ParseTree2/cmake-build-debug/CMakeFiles/ParseTree.dir
+C:/Users/KarimTariqAbdel-Azim/Desktop/optimal/ParseTree2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/KarimTariqAbdel-Azim/Desktop/optimal/ParseTree2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
