@@ -45,6 +45,9 @@ extra spaces and symbols are added and printed as needed.
 
 ### Converting XML to JSON
 
+By using the same parse tree but instead of using xml characters and notation, JSON notation was used according to standards.
+ ![file after JSON formatting](https://github.com/KareimGazer/XML-Parser/blob/main/screenshots/json.PNG?raw=true)
+
 ### Minifying XML file
 
 
