@@ -63,6 +63,9 @@ extra spaces were removed by removing "\n" while reading the file and using rege
  
  ![files size](https://github.com/KareimGazer/XML-Parser/blob/main/screenshots/compression.PNG?raw=true)
  
+### Complexity of Operations
+In all three of formatting, converting, compression the primary Data Structures was the tree whether it's parse tree or huffman code tree of characters providing   O(logN) operations for accessing tags and characters nodes. where N is the number of tree nodes.
+for formatting the operations was O(N) where N is the number of lines in the file as each line was scanned and cleared from extra white spaces.
 
 ### Testing
 For testing, in addition to the sample files provided in the report extra files with diffrent format from the web were collected.
