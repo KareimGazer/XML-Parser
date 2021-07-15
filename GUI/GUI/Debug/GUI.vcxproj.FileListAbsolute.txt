@@ -1,0 +1,3 @@
+C:\Users\himoz markoz kimoz\Desktop\dspro\GUI\GUI\Debug\GUI.vcxprojAssemblyReference.cache
+C:\Users\himoz markoz kimoz\Desktop\dspro\GUI\GUI\Debug\GUI.Form1.resources
+C:\Users\himoz markoz kimoz\Desktop\dspro\GUI\GUI\Debug\GUI.vcxproj.GenerateResource.cache

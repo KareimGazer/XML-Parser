@@ -1,0 +1,21 @@
+<<<<<<< HEAD
+﻿  CppCLR_WinformsProjekt.cpp
+C:\Users\himoz markoz kimoz\Desktop\dspro\GUI\GUI\Source.cpp(94,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\himoz markoz kimoz\Desktop\dspro\GUI\GUI\Source.cpp(110,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\himoz markoz kimoz\Desktop\dspro\GUI\GUI\Source.cpp(142,16): warning C4018: '<': signed/unsigned mismatch
+C:\Users\himoz markoz kimoz\Desktop\dspro\GUI\GUI\Source.cpp(144,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\himoz markoz kimoz\Desktop\dspro\GUI\GUI\Source.cpp(221,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\himoz markoz kimoz\Desktop\dspro\GUI\GUI\Source.cpp(307,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\himoz markoz kimoz\Desktop\dspro\GUI\GUI\Source.cpp(325,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\himoz markoz kimoz\Desktop\dspro\GUI\GUI\Source.cpp(343,26): warning C4018: '<': signed/unsigned mismatch
+C:\Users\himoz markoz kimoz\Desktop\dspro\GUI\GUI\Source.cpp(502,13): warning C4129: '-': unrecognized character escape sequence
+C:\Users\himoz markoz kimoz\Desktop\dspro\GUI\GUI\Source.cpp(542,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\himoz markoz kimoz\Desktop\dspro\GUI\GUI\Source.cpp(661,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\himoz markoz kimoz\Desktop\dspro\GUI\GUI\Form1.h(258,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\himoz markoz kimoz\Desktop\dspro\GUI\GUI\Form1.h(303,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\himoz markoz kimoz\Desktop\dspro\GUI\GUI\Form1.h(324,20): warning C4018: '<': signed/unsigned mismatch
+  AssemblyInfo.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  GUI.vcxproj -> C:\Users\himoz markoz kimoz\Desktop\dspro\GUI\Debug\GUI.exe
+=======
+﻿
+>>>>>>> c2520b22b738f46fa1ffcc62387201054861d72d
