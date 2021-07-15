@@ -133,7 +133,7 @@ vector<string> FixAll(vector<string> xml_data){
 	xml_data = fix_inline(xml_data);
 	return xml_data;
 }
-void detect_syn_error(vector<string> xml_data) {
+void detect_syn_error(vector<string> xml_data,vector<string> error_messages) {
 	stack <string>  tag_stack;
 	stack <int> line_index;
 	//vector<string> xml_data = data;//make a copy to be able to fix the error in the source code
@@ -168,6 +168,10 @@ void detect_syn_error(vector<string> xml_data) {
 				}
 				//if you are in the same line
 				else if(line_index.top()==index) {
+                    
+                    string s = "there is wrong closing tag in the line : " +to_string(index);
+                    string s2 = "the correction is </" + tag_stack.top() + ">";
+                    error_messages.push_back(s); error_messages.push_back(s2);
 					cout << "there is wrong closing tag in the line : " << index << endl;
 					cout << "the correction is </" << tag_stack.top()<<">"<< endl;
 					correct_tag_same.push(tag_stack.top());
@@ -178,6 +182,33 @@ void detect_syn_error(vector<string> xml_data) {
 				}
 			}
 
+		}
+		//check if the string is empty
+		// missing closing tag case
+		int line_size = xml_line.size();
+		if (line_size != 0) {
+			if ( xml_line[line_size - 1] == '\t'&& !tag_stack.empty()) {
+
+				correct_tag_outline.push(tag_stack.top());
+				tag_stack.pop();
+				line_num_outline.push(index);
+				cout << "there is missing closed tag at line :" << index ;
+				cout <<" the correction is :</" <<correct_tag_outline.front() <<">"<< endl;
+                string s = "there is missing closed tag at line :" + to_string(index);
+                string s2 = "the correction is </" + correct_tag_outline.front() + ">";
+                error_messages.push_back(s); error_messages.push_back(s2);
+			}
+		}
+		else if (index == xml_data.size() - 1) {
+			correct_tag_outline.push(tag_stack.top());
+			tag_stack.pop();
+			line_num_outline.push(index);
+			cout << correct_tag_outline.front();
+			cout << index;
+		}
+		index++;
+		
+	}
 		}
 		//check if the string is empty
 		// missing closing tag case
