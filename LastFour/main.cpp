@@ -8,6 +8,8 @@
 #include <map>
 #include <bitset>
 #include <regex>
+#include<queue>
+#include<stack>
 
 using namespace std;
 // Global varaibles
