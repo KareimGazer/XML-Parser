@@ -42,6 +42,9 @@ extra spaces and symbols are added and printed as needed.
 
 ### Data Compression
 
+### Testing
+For testing, in addition to the sample files provided in the report extra files with diffrent format from the web were collected.
+All files can be found in Test folder
 
 ## Sources
 - converting from XML to JSON https://www.xml.com/pub/a/2006/05/31/converting-between-xml-and-json.html?fbclid=IwAR1Y5xWga_pcYSSR3SwCDyXKDpnKZp1ZG0otr53ZT8sk0eypqSzH5b_36kQ
