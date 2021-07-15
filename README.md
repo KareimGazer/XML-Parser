@@ -14,9 +14,8 @@ In this project we aim to understand the different formats used in the web by ma
  - compress the file to reduce its size.
 
 ## Background
-
-
-
+XML files is common format to transfer data across the internet gained its popularity in the early days of the web due to the vast similarity with HTML syntax. Now, a better alternative is JSON format which stands for JavaScript Object Notation. both of these formats are used to send data in HTTP requests.
+Due to the similarity with HTML we will adopt the DOM - Document Object Model - model used in modern browsers by parsing the file as a tree and applying different operations as needed by the user.
 
 ## Implementation Details
 
