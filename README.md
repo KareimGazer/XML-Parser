@@ -19,7 +19,18 @@ Due to the similarity with HTML we will adopt the DOM - Document Object Model - 
 
 ## Implementation Details
 
+### GUI
 
+### Fixing Errors
+
+### Formatting
+
+### Converting XML to JSON
+
+### Minifying XML file
+
+
+### Data Compression
 
 
 ## Sources
