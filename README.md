@@ -24,6 +24,16 @@ Due to the similarity with HTML we will adopt the DOM - Document Object Model - 
 ### Fixing Errors
 
 ### Formatting
+ Good formatting needs good understanding of the data. The file is Parse into a tree where each node is called a tag.
+ Each tag has a name, map - key-value pairs - of attributes, list of childten, parent ,and the included text.
+ The number of children of each tag is not limited.
+ three pointers are used to keep track and construct the tree:
+ - pointer to the root
+ - pointer to the head -the current tag to inset in its children-
+ - pointer to the parent to be able to traverse the tree as each tag is allowed to have multiple children
+
+To format the text a depth variable is used which is guided by the depth of the tree. As you traverse the tree the depth variable increases or decreases providig a good metric for identation.
+extra spaces and symbols are added and printed as needed.
 
 ### Converting XML to JSON
 
