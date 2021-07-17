@@ -132,7 +132,7 @@ vector<string> FixAll(vector<string> xml_data)
 	xml_data = fix_inline(xml_data);
 	return xml_data;
 }
-void detect_syn_error(vector<string> xml_data,vector<string> error_messages) {
+void detect_syn_error(vector<string> xml_data,vector<string>& error_messages) {
 	stack <string>  tag_stack;
 	stack <int> line_index;
 	//vector<string> xml_data = data;//make a copy to be able to fix the error in the source code
